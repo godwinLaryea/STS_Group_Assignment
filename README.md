@@ -1,1 +1,1 @@
-# STS_Group_Assignments
+Group Assignments from Slightly Techie
