@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Job Application</legend>
+      <label for="name">Full Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your full name">
+
+      <br><br>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <br><br>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+
+      <br><br>
+
+      <label for="dob">Date of birth:</label>
+      <input type="date" name="dob" id="dob">
+
+      <br><br>
+
+      <label for="gender">Gender</label>
+      <input type="radio" id="gender" name="gender" value="male">Male
+      <input type="radio" id="gender" name="gender" value="female">Female
+
+      <br><br>
+
+      <label for="file">Upload Resume</label>
+      <input type="file" id="file" accept=".docx, .pdf">
+
+      <br><br>
+
+      <label for="skills">Skills</label>
+      <textarea id="skills" cols="35" rows="8">
+        List your skills here...
+      </textarea>
+
+      <br><br>
+
+      <label for="job-role">Job Role</label>
+      <select name="job-role" id="job-role">
+        <option value="#"></option>
+        <option value="Frontend">Frontend Developer</option>
+        <option value="Frontend">Backend Developer</option>
+        <option value="Frontend">Fullstack</option>
+      </select>
+
+      <br><br>
+
+      <label for="experience">Experience Level: </label>
+      <input type="text" name="experience" id="experience">
+
+      <br><br>
+
+      <label for="salary">Expected Salary ($): </label>
+      <input type="range" id="salary" min="2500" max="5000"> 5000
+
+      <br><br>
+
+      <label for="agreement">Sign Here</label>
+      <input type="checkbox" id="agreement" required>I agree to the terms and conditions.
+
+      <br><br>
+
+      <input type="Submit" value="Submit Application">
+      <input type="button" value="Reset">
+    </fieldset>
+
+  </form>
+
+</body>
+
+</html>
